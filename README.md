@@ -1,6 +1,5 @@
-# JavaRoadmapTodoCode
-Este es un RoadMap de Java, Créditos para TodoCode
 # 🛣️ Roadmap Java 2024 - TodoCode + Platzi
+> Este es un RoadMap de Java, Créditos para TodoCode
 
 ## 🎓 Perfil de Egreso
 
@@ -156,18 +155,303 @@ Desarrollador backend Java capaz de construir APIs REST escalables con Spring Bo
   - [ ] Imagen Docker funcional.
 
 ---
+# ✅ Proyectos Semanales – Roadmap Java 2024
 
-## 🧩 Proyectos Finales
+---
 
-### 🛒 Tienda Online (Monolítica)
-- CRUD de productos, usuarios, carrito.
-- Login con JWT.
-- Subido a Docker + documentado en Swagger.
+## 🧠 Semana 1 – Calculadora de Consola
 
-### 🏨 Sistema de Reservas (Microservicios)
-- Módulos: usuarios, reservas, pagos.
-- Eureka, Spring Cloud, Gateway.
-- Tests unitarios + integración.
+**Objetivo:** Practicar condicionales, bucles y entrada por consola.  
+**Descripción:**  
+Crea una calculadora que permita al usuario elegir entre sumar, restar, multiplicar o dividir dos números.
+
+**Debe tener:**
+- Menú con opciones (1. Sumar, 2. Restar, etc.)
+- Repetir hasta que el usuario decida salir
+- Validación si se intenta dividir por 0
+
+**Bonus:** Historial de operaciones en memoria
+
+---
+
+## ☕ Semana 2 – Agenda de Contactos
+
+**Objetivo:** Usar arrays o listas para almacenar objetos.  
+**Descripción:**  
+Agenda que permita agregar, buscar, eliminar y listar contactos.
+
+**Debe tener:**
+- Contacto (nombre, teléfono, email)
+- Buscar por nombre o email
+- Eliminar por nombre
+
+**Bonus:** Guardar los contactos en un archivo `.txt`
+
+---
+
+## ☕ Semana 3 – Inventario de Productos
+
+**Objetivo:** Reforzar arrays/matrices y validaciones.  
+**Descripción:**  
+Sistema que almacene productos con nombre, código y precio.
+
+**Debe tener:**
+- Alta, baja, modificación y listado
+- Control de productos duplicados
+
+**Bonus:** Mostrar total del stock (sumatoria de precios)
+
+---
+
+## 🧱 Semana 4 – Sistema de Biblioteca
+
+**Objetivo:** Aplicar clases, objetos, herencia y encapsulamiento.  
+**Descripción:**  
+Gestiona libros, usuarios y préstamos.
+
+**Debe tener:**
+- Clases: `Libro`, `Usuario`, `Prestamo`
+- Prestar libro (1 por usuario)
+- Mostrar libros disponibles
+
+**Bonus:** Manejo de fechas para préstamo y devolución
+
+---
+
+## 🧱 Semana 5 – Mini juego de Rol
+
+**Objetivo:** Aplicar POO y polimorfismo.  
+**Descripción:**  
+Juego con personajes que atacan entre sí.
+
+**Debe tener:**
+- Clase base: `Personaje`
+- Subclases: `Guerrero`, `Mago`, etc.
+- Método `atacar()` polimórfico
+
+**Bonus:** Vida, defensa, ataque crítico aleatorio
+
+---
+
+## 🗂 Semana 6 – CRUD de Productos con MySQL
+
+**Objetivo:** Conectar Java con una base de datos.  
+**Descripción:**  
+CRUD que almacene productos en MySQL con JDBC.
+
+**Debe tener:**
+- Tabla: id, nombre, precio
+- Funciones: agregar, listar, eliminar, editar
+
+**Bonus:** Búsqueda por nombre o rango de precios
+
+---
+
+## 🗂 Semana 7 – Gestión de Empleados (3 Capas)
+
+**Objetivo:** Separar la lógica en DAO, Service y Controller.  
+**Descripción:**  
+Aplicación con conexión a DB y estructura limpia.
+
+**Debe tener:**
+- Capas separadas
+- Conexión a MySQL o H2
+
+**Bonus:** Validaciones + patrón DAO
+
+---
+
+## 🌐 Semana 8 – Registro/Login con JSP
+
+**Objetivo:** Aplicar arquitectura cliente-servidor con Java Web.  
+**Descripción:**  
+Formulario de registro y login con JSP y Servlets.
+
+**Debe tener:**
+- Registro y login con validación
+- Almacenamiento en memoria o DB
+
+**Bonus:** Redirección según el rol del usuario
+
+---
+
+## ⚙️ Semana 9 – API REST de Productos
+
+**Objetivo:** Crear una API REST con Spring Boot.  
+**Descripción:**  
+Backend que maneja productos con controladores REST.
+
+**Debe tener:**
+- Endpoints: GET, POST, PUT, DELETE
+- Validación de campos
+
+**Bonus:** Documentar con Swagger
+
+---
+
+## ⚙️ Semana 10 – Gestión de Usuarios en Capas
+
+**Objetivo:** Usar Spring Boot con arquitectura limpia.  
+**Descripción:**  
+API de usuarios conectada a base de datos con JPA.
+
+**Debe tener:**
+- CRUD completo
+- Uso de DTOs y validaciones
+
+**Bonus:** Manejo de errores global con `@ControllerAdvice`
+
+---
+
+## ☁️ Semana 11 – Microservicio de Usuarios
+
+**Objetivo:** Separar servicios en microservicios.  
+**Descripción:**  
+Servicio independiente de usuarios con base de datos.
+
+**Debe tener:**
+- CRUD de usuarios
+- Docker o H2 para la DB
+
+**Bonus:** Swagger y Dockerfile
+
+---
+
+## ☁️ Semana 12 – Sistema Distribuido
+
+**Objetivo:** Comunicación entre microservicios.  
+**Descripción:**  
+Servicios de usuarios, reservas y pagos.
+
+**Debe tener:**
+- Eureka como Service Registry
+- Feign para comunicación
+
+**Bonus:** Gateway y balanceo de carga
+
+---
+
+## 🧼 Semana 13 – Refactor de API con Clean Code
+
+**Objetivo:** Aplicar principios SOLID y buenas prácticas.  
+**Descripción:**  
+Tomar una API anterior y mejorar su estructura.
+
+**Debe tener:**
+- Uso de patrones (Singleton, DTO)
+- Eliminación de código duplicado
+
+**Bonus:** Usar Optionals y Streams
+
+---
+
+## 🔐 Semana 14 – API Segura con JWT
+
+**Objetivo:** Proteger endpoints con Spring Security.  
+**Descripción:**  
+API REST con login y autorización basada en roles.
+
+**Debe tener:**
+- Generación y validación de JWT
+- Roles y autorización por endpoint
+
+**Bonus:** Refresh token
+
+---
+
+## 🧪 Semana 15 – Testing de Servicios
+
+**Objetivo:** Aplicar testing unitario y de integración.  
+**Descripción:**  
+Probar servicios con JUnit y Mockito.
+
+**Debe tener:**
+- Test unitarios con mocks
+- Test de integración con base en memoria
+
+**Bonus:** Reporte de cobertura con Jacoco
+
+---
+
+## 🛠 Semana 16 – Docker + GitHub
+
+**Objetivo:** Usar herramientas reales de DevOps.  
+**Descripción:**  
+Subir microservicio a GitHub y ejecutarlo con Docker.
+
+**Debe tener:**
+- Dockerfile funcional
+- README en GitHub
+
+**Bonus:** GitHub Actions para pruebas automáticas
+
+
+---
+## 💼 Proyectos Finales – Roadmap Java 2024
+
+---
+
+### 🛒 Proyecto Final 1: Tienda Online (Arquitectura Monolítica)
+
+**Objetivo:** Desarrollar una aplicación web completa usando Spring Boot, aplicando arquitectura MVC, seguridad, pruebas y despliegue con Docker.
+
+**Características principales:**
+- CRUD de productos, usuarios y carrito de compras
+- Registro y login de usuarios con JWT
+- Gestión de roles: cliente y administrador
+- Validación de formularios y manejo de errores
+- Swagger para documentación de la API
+- Docker para empaquetar y ejecutar la aplicación
+
+**Arquitectura:**
+- Backend en Spring Boot
+- Base de datos relacional (MySQL o PostgreSQL)
+- Arquitectura en capas: controller – service – repository
+- Seguridad con Spring Security + JWT
+- Pruebas con JUnit y Mockito
+
+**Bonus avanzado:**
+- Subida de imágenes para productos (con almacenamiento local o S3)
+- Carrito persistente por sesión de usuario
+- Panel de administración separado por roles
+
+**Tecnologías sugeridas:**  
+Java, Spring Boot, Spring Security, JPA, Swagger, Docker, Postman, GitHub
+
+---
+
+### 🏨 Proyecto Final 2: Sistema de Reservas (Microservicios)
+
+**Objetivo:** Construir un sistema distribuido que funcione como plataforma de reservas (hotelera, turnos médicos, etc.) aplicando microservicios, comunicación entre servicios, descubrimiento y tolerancia a fallos.
+
+**Microservicios propuestos:**
+1. **Servicio de Usuarios:** registro, login, roles
+2. **Servicio de Reservas:** agenda, disponibilidad, reservas
+3. **Servicio de Pagos:** validación, historial, facturación
+
+**Infraestructura:**
+- Spring Cloud Eureka como Service Registry
+- Spring Cloud Gateway como API Gateway
+- Comunicación entre servicios con Feign
+- Manejo de errores distribuido (Circuit Breaker con Resilience4j)
+- Balanceo de carga (Load Balancer)
+- Base de datos independiente por servicio (DB per service)
+
+**Testing:**
+- Pruebas unitarias por cada microservicio
+- Pruebas de integración para el flujo de reserva completo
+
+**Bonus avanzado:**
+- Dashboard administrativo con métricas y logs centralizados
+- Seguridad con OAuth2 o Keycloak
+- Contenerización y orquestación con Docker Compose
+
+**Tecnologías sugeridas:**  
+Spring Boot, Spring Cloud, Feign, Eureka, Resilience4j, Docker, OAuth2/JWT, PostgreSQL, JUnit, Swagger
+
+---
+
+> Estos proyectos finales están pensados para que consolides todo lo aprendido en el roadmap, los documentes bien, y los uses como carta de presentación para tu portafolio profesional.
 
 ---
 
